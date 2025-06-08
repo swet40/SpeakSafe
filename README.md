@@ -13,7 +13,7 @@ Frontend: React.js (Run using npm install && npm start)
 -Other: dotenv, joblib, requests, numpy, pandas, nltk
 
 ## Installation
-#Backend Setup
+# Backend Setup
 -Clone the repository :git clone https://github.com/swet40/SpeakSafe.git 
 -Install Dependicies : pip install -r requirements.txt
 - Set up environment variables: GOOGLE_API_KEY=your_gemini_api_key
