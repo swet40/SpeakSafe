@@ -1,24 +1,17 @@
-# Core Flask and API dependencies
+# Core Flask dependencies
 Flask==2.3.3
-Flask-SocketIO==5.3.6
 Flask-CORS==4.0.0
 python-dotenv==1.0.0
 
-# Machine Learning and Data Processing
-joblib==1.3.2
-scikit-learn==1.3.0
-numpy==1.24.3
-pandas==2.0.3
-
-# HTTP requests and API calls
+# HTTP requests
 requests==2.31.0
 
-# Production server (required for deployment)
-gunicorn==21.2.0
-eventlet==0.33.3
+# Machine Learning (lightweight versions)
+joblib==1.3.2
+scikit-learn==1.3.0
 
-# Google AI (if you're using Gemini)
+# Google AI
 google-generativeai==0.3.2
 
-# Additional utilities
+# Basic utilities
 Werkzeug==2.3.7
