@@ -3,15 +3,24 @@ Flask==2.3.3
 Flask-CORS==4.0.0
 python-dotenv==1.0.0
 
+# Socket.IO with exact versions that work
+Flask-SocketIO==5.3.6
+python-socketio==5.8.0
+python-engineio==4.7.1
+
+# Production server
+gunicorn==21.2.0
+eventlet==0.33.3
+
 # HTTP requests
 requests==2.31.0
 
-# Machine Learning (lightweight versions)
+# Machine Learning (lightweight)
 joblib==1.3.2
 scikit-learn==1.3.0
 
 # Google AI
 google-generativeai==0.3.2
 
-# Basic utilities
+# Utilities
 Werkzeug==2.3.7
