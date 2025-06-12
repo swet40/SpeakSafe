@@ -20,7 +20,6 @@ const Dictaphone = () => {
       setPrediction(data);
     });
 
-
     return () => socket.off("prediction");
   }
 }, [socket]);
@@ -72,7 +71,6 @@ const Dictaphone = () => {
               <p> <strong>Reason:</strong> {typeof prediction.reason === "string" && prediction.reason.trim() !== "" ? prediction.reason : "No reason provided"}</p>
 
             </div>
-
           )}
 
         {listening && <SoundLoading />}

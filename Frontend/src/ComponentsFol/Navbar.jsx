@@ -18,7 +18,7 @@ const Navbar = () => {
           </li>
           <li>
             <div onClick={logout} className="userProf">
-              Sweta
+              SS
             </div>
           </li>
         </ul>
