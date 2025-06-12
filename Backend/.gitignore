@@ -3,4 +3,4 @@ __pycache__
 *.pyc
 .env.local
 venv/
-/node_modules 
+node_modules/
